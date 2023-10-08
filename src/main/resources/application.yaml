@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: ketabee-route
+        - uri: ${Ketabee_iOS_URI:http://localhost:8085}
